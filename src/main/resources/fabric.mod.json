@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "haddag",
+	"version": "${version}",
+	"name": "Haddag",
+	"description": "Bruh... I'm coding i java not bruh",
+	"authors": [
+		"Leon"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/haddag/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pl.supercraft.leno.minecraft.mods.fabric.haddag.Haddag"
+		],
+		"client": [
+			"pl.supercraft.leno.minecraft.mods.fabric.haddag.HaddagClient"
+		],
+		"fabric-datagen": [
+			"pl.supercraft.leno.minecraft.mods.fabric.haddag.HaddagDataGenerator"
+		]
+	},
+	"mixins": [
+		"haddag.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
