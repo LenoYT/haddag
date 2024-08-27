@@ -3,13 +3,13 @@ This is haddag.
 I want to this mod have:
 - [ ] Completed Mod
    - [ ] Custom Mobs
-   - [ ] Custom Items
+   - [x] Custom Items
+   - [x] Custom Tabs
    - [ ] Workbench (Custom Crafting)
    - [ ] Custom Mechanics
-   - [x] Nothing xd
    - [ ] More...
 
-And there's jar:
+And there's jar file
 `Nothing xd - I didn't do that`
 
-### Creator: Me
+### Creator: Me and Me (L3wik and LenoYT)
