@@ -24,7 +24,7 @@ public class ModBlocks {
             .collidable(true)
             .requiresTool()
     ));
-    public static final Block RUBY_ORE = registerBlock("ruby_block", new ExperienceDroppingBlock(FabricBlockSettings.create()
+    public static final Block RUBY_ORE = registerBlock("ruby_ore", new ExperienceDroppingBlock(FabricBlockSettings.create()
             .mapColor(MapColor.TERRACOTTA_GRAY)
             .strength(5.0F, 10.0F)
             .sounds(BlockSoundGroup.AMETHYST_BLOCK)

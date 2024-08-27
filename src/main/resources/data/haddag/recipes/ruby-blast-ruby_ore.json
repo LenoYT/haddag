@@ -7,5 +7,5 @@
   "ingredient": {
     "item": "haddag:ruby_ore"
   },
-  "result": "minecraft:ruby"
+  "result": "haddag:ruby"
 }
