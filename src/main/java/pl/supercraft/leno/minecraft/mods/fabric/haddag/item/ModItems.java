@@ -9,10 +9,13 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import pl.supercraft.leno.minecraft.mods.fabric.haddag.Haddag;
+import pl.supercraft.leno.minecraft.mods.fabric.haddag.item.custom.MetalDetectorItem;
 
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item POLISHED_RUBY = registerItem("polished_ruby", new Item(new FabricItemSettings()));
+
+    public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
 
     public static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
