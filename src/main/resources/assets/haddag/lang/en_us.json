@@ -2,5 +2,7 @@
   "item.haddag.ruby": "Ruby",
   "item.haddag.polished_ruby": "Polished Ruby",
 
+  "block.haddag.ruby_block": "Block of Polished Ruby",
+
   "itemgroup.ruby": "Ruby"
 }

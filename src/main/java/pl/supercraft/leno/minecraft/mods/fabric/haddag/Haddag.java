@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import pl.supercraft.leno.minecraft.mods.fabric.haddag.block.ModBlocks;
 import pl.supercraft.leno.minecraft.mods.fabric.haddag.item.ModItems;
 import pl.supercraft.leno.minecraft.mods.fabric.haddag.item.ModItemGroups;
 
@@ -16,5 +17,7 @@ public class Haddag implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+
+		ModBlocks.registerModBlocks();
 	}
 }

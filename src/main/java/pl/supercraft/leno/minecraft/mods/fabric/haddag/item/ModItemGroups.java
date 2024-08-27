@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import pl.supercraft.leno.minecraft.mods.fabric.haddag.Haddag;
+import pl.supercraft.leno.minecraft.mods.fabric.haddag.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -17,6 +18,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.POLISHED_RUBY);
+                        entries.add(ModBlocks.RUBY_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {
