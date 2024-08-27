@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "haddag:block/sound_block"
+    }
+  }
+}

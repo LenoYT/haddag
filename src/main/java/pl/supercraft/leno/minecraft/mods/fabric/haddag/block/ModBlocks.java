@@ -14,6 +14,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import pl.supercraft.leno.minecraft.mods.fabric.haddag.Haddag;
+import pl.supercraft.leno.minecraft.mods.fabric.haddag.block.custom.SoundBlock;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block", new Block(FabricBlockSettings.create()
@@ -31,6 +32,11 @@ public class ModBlocks {
             .collidable(true)
             .requiresTool(),
             UniformIntProvider.create(2, 5)
+    ));
+    public static final Block SOUND_BLOCK = registerBlock("sound_block", new SoundBlock(FabricBlockSettings.create()
+            .strength(1.5F, 3.5F)
+            .collidable(true)
+            .requiresTool()
     ));
 
     private static Block registerBlock(String name, Block block) {
