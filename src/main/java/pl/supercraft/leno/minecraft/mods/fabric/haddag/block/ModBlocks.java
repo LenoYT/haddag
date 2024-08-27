@@ -20,6 +20,14 @@ public class ModBlocks {
             .strength(5.0F, 10.0F)
             .sounds(BlockSoundGroup.AMETHYST_BLOCK)
             .collidable(true)
+            .requiresTool()
+    ));
+    public static final Block RUBY_ORE = registerBlock("ruby_block", new Block(FabricBlockSettings.create()
+            .mapColor(MapColor.TERRACOTTA_GRAY)
+            .strength(5.0F, 10.0F)
+            .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+            .collidable(true)
+            .requiresTool()
     ));
 
     private static Block registerBlock(String name, Block block) {

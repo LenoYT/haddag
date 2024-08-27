@@ -1,5 +1,5 @@
 {
-  "variant": {
+  "variants": {
     "": {
       "model": "haddag:block/ruby_block"
     }
