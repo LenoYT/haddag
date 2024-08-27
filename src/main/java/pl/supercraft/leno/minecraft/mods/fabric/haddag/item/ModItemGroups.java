@@ -20,8 +20,10 @@ public class ModItemGroups {
                         entries.add(ModItems.POLISHED_RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.SOUND_BLOCK);
 
                         entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.TOMATO);
                     }).build());
 
     public static void registerItemGroups() {

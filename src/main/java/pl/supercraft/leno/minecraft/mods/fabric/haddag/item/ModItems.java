@@ -16,6 +16,7 @@ public class ModItems {
     public static final Item POLISHED_RUBY = registerItem("polished_ruby", new Item(new FabricItemSettings()));
 
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
+    public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
 
     public static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
