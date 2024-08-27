@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.9,
+  "group": "ruby",
+  "ingredient": {
+    "item": "haddag:ruby_ore"
+  },
+  "result": "minecraft:ruby"
+}

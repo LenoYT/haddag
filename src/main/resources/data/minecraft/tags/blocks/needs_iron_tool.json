@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "haddag:ruby_block",
+    "haddag:ruby_ore"
+  ]
+}
