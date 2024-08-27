@@ -1,3 +1,6 @@
 {
-  "item.haddag.ruby": "Ruby"
+  "item.haddag.ruby": "Ruby",
+  "item.haddag.polished_ruby": "Polished Ruby",
+
+  "itemgroup.ruby": "Ruby"
 }

@@ -10,11 +10,13 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import pl.supercraft.leno.minecraft.mods.fabric.haddag.Haddag;
 
-public class ModItem {
+public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item POLISHED_RUBY = registerItem("polished_ruby", new Item(new FabricItemSettings()));
 
     public static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
+        entries.add(POLISHED_RUBY);
     }
 
     private static Item registerItem(String name, Item item) {
@@ -24,6 +26,6 @@ public class ModItem {
     public static void registerModItems() {
         Haddag.LOGGER.info("Registering Mod Items For " + Haddag.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItem::addItemsToIngredientTabItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
     }
 }

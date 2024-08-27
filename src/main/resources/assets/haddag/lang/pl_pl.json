@@ -1,3 +1,6 @@
 {
-  "item.haddag.ruby": "Rubin"
+  "item.haddag.ruby": "Rubin",
+  "item.haddag.polished_ruby": "Wypolerowany Rubin",
+
+  "itemgroup.ruby": "Rubiny"
 }
