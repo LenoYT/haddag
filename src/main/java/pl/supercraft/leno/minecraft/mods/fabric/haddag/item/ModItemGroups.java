@@ -24,6 +24,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.LOG);
                     }).build());
 
     public static void registerItemGroups() {

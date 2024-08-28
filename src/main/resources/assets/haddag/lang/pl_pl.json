@@ -1,12 +1,16 @@
 {
   "item.haddag.ruby": "Rubin",
   "item.haddag.polished_ruby": "Wypolerowany Rubin",
-  "item.haddag.metal_detector": "Metal Detector",
+  "item.haddag.metal_detector": "Detektor Metalu",
   "item.haddag.tomato": "Pomidor",
+  "item.haddag.log": "Kłoda",
 
   "block.haddag.ruby_block": "Blok z Wypolerowanego Rubinu",
   "block.haddag.ruby_ore": "Ruda Rubinu",
   "block.haddag.sound_block": "Blok Muzyczny",
 
-  "itemgroup.ruby": "Rubiny"
+  "itemgroup.ruby": "Rubiny",
+
+  "tooltip.haddag.metal_detector.tooltip": "To jest detektor metalu.\n Sprawdza rudy żelaza pod tobą!",
+  "tooltip.haddag.soundblock.tooltip": "Ten jeden niepotrzebny"
 }

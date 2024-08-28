@@ -3,10 +3,15 @@
   "item.haddag.polished_ruby": "Polished Ruby",
   "item.haddag.metal_detector": "Metal Detector",
   "item.haddag.tomato": "Tomato",
+  "item.haddag.log": "Log",
+
 
   "block.haddag.ruby_block": "Block of Polished Ruby",
   "block.haddag.ruby_ore": "Ruby Ore",
-  "block.haddag.sound_block": "Sound_Block",
+  "block.haddag.sound_block": "Sound Block",
 
-  "itemgroup.ruby": "Ruby"
+  "itemgroup.ruby": "Ruby",
+
+  "tooltip.haddag.metal_detector.tooltip": "This is Metal detector.\n It is checking valuables under you!",
+  "tooltip.haddag.soundblock.tooltip": "The one useless"
 }

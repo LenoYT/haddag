@@ -2,6 +2,7 @@ package pl.supercraft.leno.minecraft.mods.fabric.haddag;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import pl.supercraft.leno.minecraft.mods.fabric.haddag.block.ModBlocks;
@@ -19,5 +20,7 @@ public class Haddag implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.LOG, 200);
 	}
 }
