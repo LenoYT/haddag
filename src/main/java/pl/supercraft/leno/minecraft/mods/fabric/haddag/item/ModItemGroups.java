@@ -16,15 +16,32 @@ public class ModItemGroups {
             new Identifier(Haddag.MOD_ID, "ruby"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.RUBY);
-                        entries.add(ModItems.POLISHED_RUBY);
+
+                        // Blocks
+
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.SOUND_BLOCK);
 
+                        // Ruby Decoration
+
+                        entries.add(ModBlocks.RUBY_STAIRS);
+                        entries.add(ModBlocks.RUBY_SLAB);
+                        entries.add(ModBlocks.RUBY_BUTTON);
+                        entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RUBY_FENCE);
+                        entries.add(ModBlocks.RUBY_FENCE_GATE);
+                        entries.add(ModBlocks.RUBY_WALL);
+                        entries.add(ModBlocks.RUBY_DOOR);
+                        entries.add(ModBlocks.RUBY_TRAPDOOR);
+
+                        // Items
+
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.LOG);
+                        entries.add(ModItems.RUBY);
+                        entries.add(ModItems.POLISHED_RUBY);
                     }).build());
 
     public static void registerItemGroups() {

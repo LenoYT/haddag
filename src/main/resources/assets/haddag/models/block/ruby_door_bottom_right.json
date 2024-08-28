@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "haddag:block/ruby_door",
+    "top": "haddag:block/ruby_door"
+  }
+}

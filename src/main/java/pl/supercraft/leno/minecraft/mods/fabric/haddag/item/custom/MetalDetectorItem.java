@@ -13,6 +13,7 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
+import pl.supercraft.leno.minecraft.mods.fabric.haddag.util.ModTags;
 
 import java.util.List;
 import java.util.Objects;
@@ -56,7 +57,7 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.isOf(Blocks.IRON_BLOCK) || state.isOf(Blocks.IRON_ORE);
+        return state.isIn(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS);
     }
 
     @Override

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "haddag:block/ruby_slab",
+    "side": "haddag:block/ruby_slab",
+    "top": "haddag:block/ruby_slab"
+  }
+}

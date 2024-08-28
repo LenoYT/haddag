@@ -2,9 +2,7 @@ package pl.supercraft.leno.minecraft.mods.fabric.haddag.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
-import net.minecraft.block.MapColor;
+import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -33,11 +31,19 @@ public class ModBlocks {
             .requiresTool(),
             UniformIntProvider.create(2, 5)
     ));
-    public static final Block SOUND_BLOCK = registerBlock("sound_block", new SoundBlock(FabricBlockSettings.create()
-            .strength(1.5F, 3.5F)
-            .collidable(true)
-            .requiresTool()
-    ));
+    public static final Block SOUND_BLOCK = registerBlock("sound_block", new SoundBlock(FabricBlockSettings.create().strength(1.5F, 3.5F).collidable(true).requiresTool()));
+
+    // Ruby Decoration
+
+    public static final Block RUBY_STAIRS = registerBlock("ruby_stairs", new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(),FabricBlockSettings.create().strength(1.5F, 3.5F).collidable(true).requiresTool()));
+    public static final Block RUBY_SLAB = registerBlock("ruby_slab", new SlabBlock(FabricBlockSettings.create().strength(1.5F, 3.5F).collidable(true).requiresTool()));
+    public static final Block RUBY_BUTTON = registerBlock("ruby_button", new ButtonBlock(FabricBlockSettings.create().strength(1.5F, 3.5F).collidable(true).requiresTool(), BlockSetType.IRON, 10, true));
+    public static final Block RUBY_PRESSURE_PLATE = registerBlock("ruby_pressure_plate", new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.create().strength(1.5F, 3.5F).collidable(true).requiresTool(), BlockSetType.IRON));
+    public static final Block RUBY_FENCE = registerBlock("ruby_fence", new FenceBlock(FabricBlockSettings.create().strength(1.5F, 3.5F).collidable(true).requiresTool()));
+    public static final Block RUBY_FENCE_GATE = registerBlock("ruby_fence_gate", new FenceGateBlock(FabricBlockSettings.create().strength(1.5F, 3.5F).collidable(true).requiresTool(), WoodType.ACACIA));
+    public static final Block RUBY_WALL = registerBlock("ruby_wall", new WallBlock(FabricBlockSettings.create().strength(1.5F, 3.5F).collidable(true).requiresTool()));
+    public static final Block RUBY_DOOR = registerBlock("ruby_door", new DoorBlock(FabricBlockSettings.create().strength(1.5F, 3.5F).collidable(true).requiresTool(), BlockSetType.IRON));
+    public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor", new TrapdoorBlock(FabricBlockSettings.create().strength(1.5F, 3.5F).collidable(true).requiresTool(), BlockSetType.IRON));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
