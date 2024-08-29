@@ -21,6 +21,6 @@ public class Haddag implements ModInitializer {
 
 		ModBlocks.registerModBlocks();
 
-		FuelRegistry.INSTANCE.add(ModItems.LOG, 200);
+		FuelRegistry.INSTANCE.add(ModItems.LOG, 200); // Item LOG - jest fuel - 10s
 	}
 }

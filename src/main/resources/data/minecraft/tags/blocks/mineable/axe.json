@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "haddag:sound_block"
+    "haddag:sound_block",
+    "haddag:magic_extractor_block"
   ]
 }

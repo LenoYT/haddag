@@ -12,6 +12,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import pl.supercraft.leno.minecraft.mods.fabric.haddag.Haddag;
+import pl.supercraft.leno.minecraft.mods.fabric.haddag.block.custom.MagicExtractorBlock;
 import pl.supercraft.leno.minecraft.mods.fabric.haddag.block.custom.SoundBlock;
 
 public class ModBlocks {
@@ -31,7 +32,10 @@ public class ModBlocks {
             .requiresTool(),
             UniformIntProvider.create(2, 5)
     ));
+
+
     public static final Block SOUND_BLOCK = registerBlock("sound_block", new SoundBlock(FabricBlockSettings.create().strength(1.5F, 3.5F).collidable(true).requiresTool()));
+    public static final Block MAGIC_EXTRACTOR_BLOCK = registerBlock("magic_extractor_block", new MagicExtractorBlock(FabricBlockSettings.create().strength(1.0F, 0.5F).collidable(true).requiresTool()));
 
     // Ruby Decoration
 

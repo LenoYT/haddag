@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.SOUND_BLOCK);
+                        entries.add(ModBlocks.MAGIC_EXTRACTOR_BLOCK);
 
                         // Ruby Decoration
 
@@ -42,6 +43,8 @@ public class ModItemGroups {
                         entries.add(ModItems.LOG);
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.POLISHED_RUBY);
+                        entries.add(ModItems.POWDERED_RUBY);
+                        entries.add(ModItems.SIEVE);
                     }).build());
 
     public static void registerItemGroups() {
